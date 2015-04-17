@@ -30,9 +30,8 @@ else
         mkdir $FIDDLE;
         cp template/* $FIDDLE;
         cd $FIDDLE;
-        haml index.haml index.html;
         sass main.scss main.css;
-    
+
         run_fiddle
     )
 fi

@@ -5,7 +5,7 @@ if !exists("g:fiddle_auto_save")
     let g:fiddle_auto_save = 1
 endif
 function! CompileTemplates()
-    :silent !haml index.haml index.html && sass main.scss main.css
+    :silent !sass main.scss main.css
 endfunction
 function! OpenOrRefreshBrowser()
     if g:fiddle_auto_save
@@ -30,10 +30,10 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
 endif
 set shortmess=aoO
 badd +0 main.scss
-badd +0 index.haml
+badd +0 index.html
 badd +0 main.js
 silent! argdel *
-edit index.haml
+edit index.html
 set splitbelow splitright
 wincmd _ | wincmd |
 split
