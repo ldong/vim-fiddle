@@ -1,30 +1,31 @@
 # README
 
+Author: Lin Dong
+
+Date: Mon Apr 20 19:34:55 PDT 2015
+
 This is a fork of [Vim-fiddle](https://github.com/mharju/vim-fiddle)
 
-To use, just clone this repository and type::
+## Instruction
 
-`./fiddle.sh`
+1. To use, just clone this repository. `git clone https://github.com/ldong/vim-fiddle`
 
-The script creates a new fiddling directory, starts up MVIM and the WSGI-server with Bottle Framework.
+2. Set `Google Chrome` as your default browser on Mac
 
-Use ``<Leader>r`` to compile and open the file in browser or refresh it. 
+3. `./fiddle.sh`
 
-Set ``g:fiddle_browser`` to the default browser you are having or leave it as is to use Google Chrome.
-
-Check out ``fiddle.sh`` for configuration options such as VIM executable name and the directory where to put the fiddles
-in. **Note:** if you use Rooter or a plugin that changes the current working directory, this script might not work.
+4. Use ``<Leader>r`` to compile and open the file in browser or refresh it.
 
 ## Screenshot
 
-image:: http://play.taiste.fi/stuf/vim-fiddle.png
+![](http://play.taiste.fi/stuf/vim-fiddle.png)
 
 ## Requirements
 
 * Python
 * [SASS](http://sass-lang.com/)
 
-JS Libraies: 
+JavaScript Libraies:
 
 1. jquery 1.11
 
