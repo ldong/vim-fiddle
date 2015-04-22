@@ -28,7 +28,7 @@ else
 
     (set -e;
         mkdir $FIDDLE;
-        cp template/* $FIDDLE;
+        cp -r template/* $FIDDLE;
         cd $FIDDLE;
         sass main.scss main.css;
 
