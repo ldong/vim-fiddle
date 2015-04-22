@@ -3,6 +3,10 @@ import random
 import os
 import sys
 
+@get('/fonts/:name#.+#')
+def get_static(name):
+    return static_file(name, root='./fonts')
+
 @get('/static/:name#.+#')
 def get_static(name):
     return static_file(name, root='.')
