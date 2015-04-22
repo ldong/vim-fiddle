@@ -25,11 +25,13 @@ This is a fork of [Vim-fiddle](https://github.com/mharju/vim-fiddle)
 * Python
 * [SASS](http://sass-lang.com/)
 
-JavaScript Libraies:
+## Libraies
 
 1. jquery 1.11
 
-2. Underscore 1.8.3
+2. underscore 1.8.3
+
+3. font-awesome-4.3.0
 
 # License
 MIT
