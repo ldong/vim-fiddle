@@ -14,7 +14,7 @@ This is a fork of [Vim-fiddle](https://github.com/mharju/vim-fiddle)
 
 3. `./fiddle.sh`
 
-4. Use ``<Leader>r`` to compile and open the file in browser or refresh it.
+4. Use `<Leader>o` to compile and open the file in browser or refresh it.
 
 ## Screenshot
 
