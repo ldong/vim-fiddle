@@ -87,5 +87,5 @@ endif
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
 unlet SessionLoad
-nmap <Leader>r :call OpenOrRefreshBrowser()<cr>
+nmap <Leader>o :call OpenOrRefreshBrowser()<cr>
 " vim: set ft=vim :
